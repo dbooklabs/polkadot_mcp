@@ -1,0 +1,4 @@
+[submodule "scripts/polkadot-scripts"]
+	path = scripts/polkadot-scripts
+	url = https://github.com/dbooklabs/polkadot_rough.git
+	branch = main
