@@ -105,7 +105,7 @@ You can easily access this file via the Claude Desktop app by navigating to Clau
       "mcpServers": {
         "base-mcp": {
           "command": "node",
-          "args": ["<PROJECT_PATH>build/index.js"],
+          "args": ["<PROJECT_PATH>/build/index.js"],
           "env": {
             "SUBSCAN_API_KEY": "<YOUR_SUBSCAN_API_KEY>"
           },
