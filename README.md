@@ -134,7 +134,7 @@ Retrieves information about the Polkadot network.
 
 Parameters:
 
-- `chainId`: The ID of the Polkadot chain to query. Refer to the list in **[chainConfigs](https://github.com/dbooklabs/polkadot_mcp/tree/main/src/tools/chains/chainConfigs.ts)** for valid IDs. 
+- `chainId`: The ID of the Polkadot chain to query. Refer to the list in **[chainConfigs](https://github.com/dbooklabs/polkadot_mcp/tree/main/src/tools/utils/chainConfigs.ts)** for valid IDs. 
 - `chainName`: he name of the Polkadot chain to query. If not provided, defaults to the chain ID.
 
 Example query to Claude:
@@ -148,7 +148,7 @@ Gets the user's balance on the Polkadot network.
 Parameters:
 
 - `userAddress`: The Polkadot address to fetch the balance for.
-- `chainId`: The ID of the Polkadot chain to query. Refer to the list in **[chainConfigs](https://github.com/dbooklabs/polkadot_mcp/tree/main/src/tools/chains/chainConfigs.ts)** for valid IDs. 
+- `chainId`: The ID of the Polkadot chain to query. Refer to the list in **[chainConfigs](https://github.com/dbooklabs/polkadot_mcp/tree/main/src/tools/utils/chainConfigs.ts)** for valid IDs. 
 - `chainName`: he name of the Polkadot chain to query. If not provided, defaults to the chain ID.
 
 Example query to Claude:
@@ -163,7 +163,7 @@ Parameters:
 
 - `toAddress`: The recipient's Polkadot address.
 - `amount`: The amount to transfer. Do not add planck suffix, it will be added automatically.
-- `chainId`: The ID of the Polkadot chain to query. Refer to the list in **[chainConfigs](https://github.com/dbooklabs/polkadot_mcp/tree/main/src/tools/chains/chainConfigs.ts)** for valid IDs. 
+- `chainId`: The ID of the Polkadot chain to query. Refer to the list in **[chainConfigs](https://github.com/dbooklabs/polkadot_mcp/tree/main/src/tools/utils/chainConfigs.ts)** for valid IDs. 
 - `chainName`: he name of the Polkadot chain to query. If not provided, defaults to the chain ID.
 
 Example query to Claude:
