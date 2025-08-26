@@ -1,5 +1,7 @@
 # dBOOK – Polkadot MCP
 
+![Claude Demo](public/demo.gif)
+
 ⚙️ Utility package powering the **[dBOOK Polkadot Grant Project](https://github.com/Polkadot-Fast-Grants/apply/blob/master/applications/dBOOK.md)**.  
 This repository contains the methods for **fetching network data from Polkadot and parachains**, and for **constructing transfer payloads** that can be signed and broadcasted.
 
